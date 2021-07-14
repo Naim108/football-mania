@@ -1,0 +1,213 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
+header{
+    background-color: #2D25A0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* nav csss */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em ;
+    margin: 15px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.login-btn{
+    background-color: #E02C6D ;
+    padding: 7px;
+}
+/* section start */
+.container{
+    width: 1440px;
+    height: 677px auto;
+    display: flex;
+    padding: 156px;
+}
+
+
+.half-width{
+    width: 50%;
+    margin: -50px;
+}
+
+.half-width h1{
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+
+}
+.watch-btn{
+    background-color: #E02C6D ;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.half-width h2{
+    
+    color: white;
+    width: 110px;
+    font-size: 16px;
+    padding:15px 15px;
+}
+
+
+.half-width img{
+    width: 556px;
+    height: 438px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    
+    
+}
+
+.players img{
+    width: 300px;
+    height: 256px;
+}
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+.players{
+    width: 330px;
+    height: 474px;
+    
+    margin: 30px;
+    background-color:#ffffff ;
+    box-shadow:20px 10px 20px 10px  rgba(0, 0, 0, 0.082);
+    padding: 16px;
+}
+/* highlights section css */
+.top-menu{
+    font-size: 30px;
+    padding-left: 50px;
+    color: orangered;
+
+}
+.eye-cathing-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.color-span{
+    background-color: #FEE5DF;
+    border-radius: 30px;
+    padding: 5px;
+    color: #ED6B4F;
+}
+h2{
+    text-align: center;
+}
+/* latest news part */
+
+.list-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    margin-top: -20px;
+}
+.podcast img{
+    width: 300px;
+    height: 256px;
+}
+.podcast{
+    width: 330px;
+    height: 400px;
+    margin: 32px;
+    background-color:#ffffff ;
+    box-shadow:20px 10px 20px 10px  rgba(0, 0, 0, 0.082);
+    padding: 16px;
+}
+/* animation css */
+.animation-part{
+    width: 1000px;
+    
+}
+.goal-box{
+    width: 300px;
+    height: 350px;
+    margin-bottom: -140px;
+    margin-left: 160px;
+   
+
+}
+.footballer {
+    transition: transform 0.2s;
+}
+
+.animation-part:hover .footballer {
+    transform: rotate(-20deg);
+    transform-origin: top right;
+
+}
+
+.football{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(-90deg)
+    margin-left: -400px;
+    transition: transform 1s ease-out;
+}
+.animation-part:hover .football {
+    transform: translate(400px);
+}
+
+
+
+
+
+
+
+
+/* footer css */
+.footer-section{
+    text-align: center;
+}
+.footer-logo img{
+    width: 484px;
+    height: 110px;
+}
+
+ .social-icon a i{
+    margin: 14px;
+    background-color: #00000023;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 30px;
+    color: black;
+    
+}
+
+#copyright-details{
+    font-size: 18px;
+}
+
+
